@@ -22,7 +22,7 @@ public class IncomeMaster implements Serializable {
 
     @ManyToOne
     @JoinColumn(name = "empId")
-    private com.lucipurr.tax.database.model.EmployeeInfoMaster employeeInfoMaster;
+    private EmployeeInfoMaster employeeInfoMaster;
 
     @Column(name = "basicSalary")
     private double basicSalary;

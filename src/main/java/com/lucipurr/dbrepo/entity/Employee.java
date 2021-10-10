@@ -7,8 +7,9 @@ import lombok.NoArgsConstructor;
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
-public class EmployeeMaster {
-    private EmployeeInfoMaster employeeInfoMaster;
-    private IncomeMaster incomeMaster;
-    private DeductionsMaster deductionsMaster;
+public class Employee {
+
+    private EmployeeInfo emp;
+    private Income income;
+    private Deductions deductions;
 }
